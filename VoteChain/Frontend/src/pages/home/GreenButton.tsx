@@ -1,4 +1,4 @@
-
+nombre_candidato
 import { useAccount, useApi, useAlert } from "@gear-js/react-hooks";
 import { web3FromSource } from "@polkadot/extension-dapp";
 import { ProgramMetadata } from "@gear-js/api";
@@ -21,7 +21,7 @@ function GreenButton() {
 
   const message: any = {
     destination: programIDFT, // programId
-    payload: "Green",
+    payload: "nombre_candidato",
     gasLimit: 899819245,
     value: 0,
   };
