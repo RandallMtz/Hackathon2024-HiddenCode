@@ -27,21 +27,22 @@ function Home() {
                 position: 'absolute',
                 bottom: 1,
                 left: 0,
-                bg: 'blue.400',
+                bg: 'green.400',
                 zIndex: -1,
               }}>
-              Hidden Code
+              Vote.Chain
             </Text>
             <br />{' '}
-            <Text color='blue.400' as='span'>
-              VoteChain
+            <Text color='green.400' as='span'>
+              Hidden Code
             </Text>{' '}
           </Heading>
           <Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.500'}>
-            Somos un grupo de jovenes abiertos a nuevas tecnologias.
+            Somos un grupo de personas dispuestas a innovar en el mundo de la Web3.
           </Text>
           <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
             <GreenButton/>
+            <Button rounded={'full'}>Ver Candidatos</Button>
           </Stack>
         </Stack>
       </Flex>
