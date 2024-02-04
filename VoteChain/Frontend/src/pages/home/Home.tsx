@@ -30,20 +30,18 @@ function Home() {
                 bg: 'blue.400',
                 zIndex: -1,
               }}>
-              Freelance
+              Hidden Code
             </Text>
             <br />{' '}
             <Text color='blue.400' as='span'>
-              Design Projects
+              VoteChain
             </Text>{' '}
           </Heading>
           <Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.500'}>
-            The project board is an exclusive resource for contract work. It&apos;s
-            perfect for freelancers, agencies, and moonlighters.
+            Somos un grupo de jovenes abiertos a nuevas tecnologias.
           </Text>
           <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
             <GreenButton/>
-            <Button rounded={'full'}>Somo un grupo de jovenes abiertos a nuevas tecnologias</Button>
           </Stack>
         </Stack>
       </Flex>
